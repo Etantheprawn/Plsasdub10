@@ -17,14 +17,14 @@
 
 .btn:hover {
   border-radius: 5%;
-  height: 500px;
+  height: 350px;
   width: 200px; 
   cursor: pointer;
 }
 
 .text {
-  color: #FBFCFC;
-  opacity: 75;
+  color: #fff;
+  opacity: 0;
   text-align: center;
   padding-top: 1px;
   transition: all .3s ease-in-out;
@@ -32,10 +32,8 @@
 
 .btn:hover .text {
   padding-top: 1px;
-  opacity: 20;
+  opacity: 1;
 }
 .app-link{
   font-family: 'Montserrat', sans-serif;
 }
-
-body { background-image: url(https://avatars.githubusercontent.com/u/44658109?v=4); }
